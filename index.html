@@ -2,15 +2,17 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>exo2</title>
+    <title>exo2 corriger</title>
   </head>
   <body>
     <script>
-      var lastName="Nom: Doe";
-      var firstName="Prénom: John";
-      var city="Ville: New-York";
-      result= lastName+"\n"+firstName+"\n"+city;
-      alert(result);
+      var lastName='Doe', firstName='John',city='New-York';
+      alert(`
+        Nom:${lastName}
+        Prénom: ${firstName}
+        Ville: ${city}
+      `)
+// système de formatage avec le $ pour injecter nos variables.Cela évite les concaténations.
 
 
     </script>
